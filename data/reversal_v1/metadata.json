@@ -1,0 +1,16 @@
+{
+  "config": {
+    "n_pairs": 500,
+    "n_templates_per_pair": 5,
+    "n_eval_pairs": 200,
+    "n_candidates": 8,
+    "seed": "reversal-v1",
+    "out": "data/reversal_v1"
+  },
+  "files": {
+    "train_facts.jsonl": 2500,
+    "eval_memory.jsonl": 200,
+    "eval_logic.jsonl": 200
+  },
+  "n_unique_entities": 1000
+}

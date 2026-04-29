@@ -1,0 +1,55 @@
+# --- Project-specific artifacts (root only) ---
+/logs
+/results
+/idea
+/checkpoints
+/wandb
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+dist/
+
+# --- Virtual environments / uv ---
+.venv/
+venv/
+env/
+
+# --- Hugging Face / local model caches ---
+.cache/
+hf_cache/
+.huggingface/
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Lint / type / test caches ---
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Secrets / local environment ---
+.env
+.env.local
+*.env.local
